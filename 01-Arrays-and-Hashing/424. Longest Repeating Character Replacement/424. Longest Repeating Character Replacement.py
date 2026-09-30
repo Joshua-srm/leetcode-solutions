@@ -1,0 +1,1 @@
+                left += 1            answer = max(answer, right - left + 1)        return answer                count[s[left]] -= 1            while (right - left + 1) - max_freq > k:            max_freq = max(max_freq, count[s[right]])            count[s[right]] = count.get(s[right], 0) + 1
